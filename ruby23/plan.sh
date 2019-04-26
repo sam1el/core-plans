@@ -13,3 +13,6 @@ pkg_source=https://cache.ruby-lang.org/pub/ruby/ruby-${pkg_version}.tar.gz
 pkg_upstream_url=https://www.ruby-lang.org/en/
 pkg_shasum=b5016d61440e939045d4e22979e04708ed6c8e1c52e7edb2553cf40b73c59abf
 pkg_dirname="ruby-$pkg_version"
+
+# Hint for rebuild scripts. Not a formal part of plan-build.
+_pkg_deprecated="true"
